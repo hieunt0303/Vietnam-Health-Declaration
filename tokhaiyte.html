@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Users/ASUS/Desktop/bibi/CODE/JAVASRCIPT/TOKHAIYTE/style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="header" id="header">
+        <a href="http://tokhaiyte.vn">
+          <img
+            src="img/logo_boyte.png"
+            alt=""
+            style="width: 90px; height: 40%"
+          />
+        </a>
+        <span style="padding: 10px"
+          ><strong class="banchidao"> BAN CHỈ ĐẠO QUỐC GIA <br /></strong
+          ><br /><strong
+            >PHÒNG CHỐNG DỊCH BỆNH COVID-19 <br />
+            HỆ THỐNG QUẢN LÍ KHAI BÁO Y TẾ</strong
+          ></span
+        >
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /><br />
+      <div style="background-color: #1C86EE" class="register">
+        <div style="color: white
+        ;">
+          <h2>ĐĂNG KÍ ĐIỂM KIỂM DỊCH!</h2>
+          <p>Hướng dẫn đăng kí</p>
+        </div>
+        <button>ĐĂNG KÍ</button>
+      </div>
+      <br />
+      <button class="dangnhap">💨ĐĂNG NHẬP</button>
+      <p style="text-align: center; font-size: 40px">
+        Tờ khai y tế/Vietnam Health Declaration
+      </p>
+      <div class="option_declaration">
+        <nav>Cho người nhập cảnh <br />Entry declaration</nav>
+        <nav>Khai báo toàn dân <br />For demestic guests</nav>
+        <nav>
+          Khai báo di chuyển nội đại <br />
+          For domestic move declaration
+        </nav>
+      </div>
+      <br /><br /><br />
+      <div class="update-loikhai">
+        <b>
+          Chọn ngôn ngữ để khai báo y tế /Select the language to declare health:
+        </b>
+
+        <button class="huongdanhanhkhach">❔Hướng dẫn hành khách</button>
+        <button class="capnhaploikhai">📄Cập nhập lời khai</button>
+      </div>
+      <div class="flat-country">
+        <nav>
+          <button><img src="img/vietnam.png" /></button>
+        </nav>
+        <nav>
+          <button><img src="img/my.png" /></button>
+        </nav>
+        <nav>
+          <button><img src="img/trungquoc.png" /></button>
+        </nav>
+        <nav>
+          <button><img src="img/hanquoc.jpg" /></button>
+        </nav>
+        <nav>
+          <button><img src="img/y.png" /></button>
+        </nav>
+        <nav>
+          <button><img src="img/phap.png" /></button>
+        </nav>
+        <nav>
+          <button><img src="img/nhatban.png" /></button>
+        </nav>
+      </div>
+      <br /><br /><br /><br />
+      <div style="text-align: center; padding: 10px">
+        <strong>TỜ KHAI Y TẾ ĐỐI VỚI NGƯỜI NHẬP CẢNH </strong>
+        <h4>
+          ĐÂY LÀ TÀI LIỆU QUAN TRỌNG, THÔNG TIN CỦA ANH/CHỊ SẼ GIÚP CƠ QUAN Y TẾ
+          LIÊN LẠC KHI CẦN THIẾT ĐỂ PHÒNG CHỐNG DỊCH BỆNH TRUYỀN NHIỄM
+        </h4>
+        <b style="color: red"
+          >Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và
+          có thể xử lý hình sự
+        </b>
+      </div>
+      <form action="">
+        <table style="width: 50%" id="cua-khau">
+          <tr>
+            <td>
+              <label for="cua-khau"
+                >Cửa khẩu <span style="color: red">(*)</span></label
+              >
+            </td>
+            <td id="cua-khau">
+              <select id="text-cuakhau">
+                <option value="chon">-Chọn-</option>
+                <option value="baria-vungtau">Bà Rịa - Vũng tàu</option>
+                <option value="cantho">Cảng hàng không Quốc Tế Cần Thơ</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <table id="hoten" style="width: 50%">
+          <tr>
+            <td>
+              <label for="hoten"
+                >Họ tên ( ghi chữ IN HOA )
+                <span style="color: red">(*)</span></label
+              >
+            </td>
+            <td>
+              <input type="text" required id="text-cuakhau" />
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <table style="width:100%">
+          <tr>
+            <td>
+              <label for="nam-sinh"
+                >Năm sinh <span style="color: red">(*)</span></label
+              >
+            </td>
+            <td >
+              <select name="age" id="" class="namsinh-gioitinh-quoctich">
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+              </select>
+            </td>
+            <td>
+              <label for="gioi-tinh"
+                >Giới tính <span style="color: red">(*)</span></label
+              >
+            </td>
+            <td >
+              <select name="gioi-tinh" id="" class="namsinh-gioitinh-quoctich">
+                <option value="chon">-Chọn-</option>
+                <option value="Nam">Nam</option>
+                <option value="Nu">Nữ</option>
+              </select>
+            </td>
+            <td>
+              <label for="quoctich"
+                >Quốc tịch <span style="color: red">(*)</span></label
+              >
+            </td>
+            <td >
+              <select name="quoctich" id="" class="namsinh-gioitinh-quoctich">
+                <option value="VietNam">Việt Nam</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <label for="cmnd">
+          Số hộ chiếu hoặc số CMND hoặc giấy thông hành hợp pháp khác
+          <span style="color: red">(*)</span>
+        </label>
+        <input type="text" />
+        <br />
+        <label for="di-lai"
+          >Thông tin đi lại <span style="color: red">(*)</span></label
+        >
+        <label for="tau-bay">Tàu bay</label>
+        <input type="checkbox" name="di-lai" id="" value="Tàu bay" />
+        <label for="tau-thuyen">Tàu thuyền</label>
+        <input type="checkbox" name="tau-thuyen" />
+        <label for="o-to">Ô tô</label>
+        <input type="checkbox" name="o-to" id="" />
+        <label for="other">Khác(Ghi rõ):</label><br />
+        <textarea
+          name="other"
+          id=""
+          style="width: 100%; height: 60px; border: 1px solid"
+        ></textarea>
+        <label for="so-hieu-phuong-tien">Số hiệu phương tiện</label>
+        <input type="text" name="so-hieu-phuong-tien" id="" />
+        <label for="so-ghe">Số ghế</label>
+        <input type="text" />
+        <br /><br />
+        <b>Địa chỉ liên lạc tại Việt Nam <span style="color: red">(*)</span></b>
+        <br />
+        <input type="text" style="width: 100%; height: 30px" />
+        <br /><br />
+        <i
+          >Số điện thoại bạn sẽ sử dụng tại Việt Nam ( Là số Roaming hoặc số
+          Việt Nam)</i
+        >
+        <br />
+        <label for="phone"
+          >Điện thoại <span style="color: red">(*)</span></label
+        >
+        <input type="phone" name="phone" />
+        <label for="email">Email</label>
+        <input type="mail" name="email" id="" />
+        <br />
+        <strong>
+          Trong vòng 14 ngày (tính đến thời điểm làm thủ tục xuất cảnh, nhập
+          cảnh, quá cảnh) Anh/Chị có thấy xuất hiện dấu hiệu nào sau đây không ?
+          <span style="color: red">(*)</span>
+        </strong>
+        <table class="table-trieuchung" style="width: 100%; margin: 6px">
+          <tr>
+            <th>Triệu chứng</th>
+            <th>Có</th>
+            <th>Không</th>
+            <th>Triệu chứng</th>
+            <th>Có</th>
+            <th>Không</th>
+          </tr>
+          <tr>
+            <td>Sốt<span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+            <td>Nôn/buồn nôn<span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+          </tr>
+          <tr>
+            <td>Ho<span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+            <td>Tiêu chảy<span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+          </tr>
+          <tr>
+            <td>Khó thở <span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+            <td>Xuất huyết ngoài da<span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+          </tr>
+          <tr>
+            <td>Đau họng <span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+            <td>Nổi ban ngoài da<span style="color: red">(*)</span></td>
+            <td><input type="radio" /></td>
+            <td><input type="radio" /></td>
+          </tr>
+        </table>
+        <strong>Phiếu kết quả xét nghiệm</strong>
+        <div
+          class="qq-upload-button"
+          style="position: relative; overflow: hidden; direction: ltr"
+        >
+          <span>Chọn File</span>
+        </div>
+        <input
+          type="date"
+          value="Ngày xét nghiệm"
+          placeholder="Ngày xét nghiệm"
+        />
+        <p style="color: red">
+          Dữ liệu bạn cung cấp hoàn toàn bảo mật và chỉ phục vụ cho việc phòng
+          chống dịch, thuộc quản lý của Ban chỉ đạo quốc gia về Phòng chống dịch
+          Covid-19. Khi bạn nhấn nút "Gửi" là bạn đã hiểu và đồng ý.
+        </p>
+        <div>
+          <input
+            type="submit"
+            name=""
+            class="gui-to-khai"
+            value="GỬI TỜ KHAI"
+          />
+        </div>
+      </form>
+    </div>
+    <br />
+
+    <footer style="background-color: #1874cd; color: white;margin: 0;padding: 0;">
+      <div>
+        <table class="footer" style="width: 100%">
+          <tr>
+            <td>Video hướng dẫn Khai báo y tế nhập cảnh</td>
+            <td>Phần dành cho cán bộ quản lí</td>
+          </tr>
+          <tr>
+            <td>Video hướng dẫn Khai báo y tế nội địa</td>
+            <td>Đăng nhập</td>
+          </tr>
+          <tr>
+            <td>Video hướng dẫn Khai báo y tế tại điểm kiểm soát dịch</td>
+            <td>Hướng dẫn sử dụng</td>
+          </tr>
+        </table>
+      </div>
+    </footer>
+  </body>
+</html>

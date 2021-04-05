@@ -1,0 +1,168 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+  display: block;
+  width: 100%;
+  background-color: #33ccff;
+}
+input{
+    padding: 10px;
+    border-radius: 12px;
+    border: solid 1px;
+}
+.header a {
+  float: left;
+  width: 8%;
+}
+.header span {
+  float: left;
+
+  width: 90%;
+}
+.banchidao {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.register {
+  border-radius: 12px;
+  padding-left: 10px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.register button {
+  border-radius: 20px;
+  padding: 2px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #3366cc;
+  border: none;
+  color: white;
+}
+.namsinh-gioitinh-quoctich{
+    padding: 4px;
+    width: 100px;
+    border-radius: 12px;
+}
+.option_declaration nav {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.dangnhap {
+  float: right;
+  background-color: #3366cc;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 20px;
+  color: white;
+  padding: 7px;
+}
+.update-loikhai button {
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+.capnhaploikhai{
+color: white;
+background-color: #3366cc;
+border-radius: 5px;
+border: solid 1px;
+}
+.capnhaploikhai:hover{
+background-color:#006666;
+}
+.huongdanhanhkhach{
+border-radius: 5px;
+color: blue;
+border:1px solid black ;
+}
+.huongdanhanhkhach:hover{
+    background-color: #CFCFCF    ;
+}
+.flat-country img{
+    width: 60px;
+    height: 40px;
+}
+.flat-country nav{
+    float: left;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #CFCFCF;
+}
+table,th,td{
+    
+    border-collapse: collapse;
+}
+.table-trieuchung th,td{
+    border: 1px solid #B5B5B5    ;
+}
+.table-trieuchung th{
+    background-color: #CFCFCF    ;
+    padding: 6px;
+}
+.table-trieuchung td{
+    padding: 6px;
+}
+.table-trieuchung th:nth-child(1){
+    text-align: left;
+    
+}
+.table-trieuchung th:nth-child(4){
+    text-align: left;
+    
+}
+.table-trieuchung td:nth-child(2){
+    text-align: center;
+}
+.table-trieuchung td:nth-child(3){
+    text-align: center;
+}
+.table-trieuchung td:nth-child(5){
+    text-align: center;
+}
+.table-trieuchung td:nth-child(6){
+    text-align: center;
+}
+.gui-to-khai{
+    text-align: right;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+    background-color: green;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    font-size: 18px;
+}
+.footer table, td{
+    
+    border: #1874CD;
+    padding: 6px;
+    
+}
+.footer td:nth-child(2){
+    text-align: right;
+}
+#text-cuakhau{
+    width: 300px;
+    padding: 10px;
+    border-radius: 12px;
+}
+#cua-khau td:nth-child(2){
+    float: right;
+}
+#hoten td:nth-child(2){
+    float: right;
+}
+#text-cuakhau{
+    width: 300px;
+    padding: 10px;
+    border-radius: 12px;
+}
